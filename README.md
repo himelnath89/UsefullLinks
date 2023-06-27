@@ -15,3 +15,6 @@ Below is Higest to Lowest
 4) appsettings.{Environment}.json using the JSON configuration provider. For example, appsettings.Production.json and appsettings.Development.json.
 5) appsettings.json using the JSON configuration provider.
 6) A fallback to the host configuration described in the next section.
+
+ASCII </br>
+https://www.ascii-code.com/ </br>
