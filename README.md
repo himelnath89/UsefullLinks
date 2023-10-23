@@ -29,5 +29,5 @@ ssh root@127.0.0.1 -p <port>
 mysql -h <b>hostName</b> -u <b>userName</b> -p
 
 <h3>Quick look at files in webapp</h3>
-http://<yoursitename>.scm.azurewebsites.net
+http://<b>yoursitename</b>.scm.azurewebsites.net </br>
 <a>https://stackoverflow.com/a/26385007</a>
