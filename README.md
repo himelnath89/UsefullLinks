@@ -23,11 +23,11 @@ az webapp create-remote-connection --subscription <b>subscriptionId</b> --resour
 </br>
 ssh root@127.0.0.1 -p <port>
 </br>
-<a>https://learn.microsoft.com/en-us/azure/app-service/configure-linux-open-ssh-session?pivots=container-linux</a>
+https://learn.microsoft.com/en-us/azure/app-service/configure-linux-open-ssh-session?pivots=container-linux
 
 <h3>Connect to mysql </h3>
 mysql -h <b>hostName</b> -u <b>userName</b> -p
 
 <h3>Quick look at files in webapp</h3>
 http://<b>yoursitename</b>.scm.azurewebsites.net </br>
-<a>https://stackoverflow.com/a/26385007</a>
+https://stackoverflow.com/a/26385007
