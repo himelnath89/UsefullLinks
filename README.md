@@ -21,6 +21,13 @@ https://www.ascii-code.com/ </br>
 <h3>Connect to App Service via CLI </h3>
 az webapp create-remote-connection --subscription <b>subscriptionId</b> --resource-group <b>rgName</b> -n <b>webAppName</b> &
 </br>
+ssh root@127.0.0.1 -p <port>
+</br>
+<a>https://learn.microsoft.com/en-us/azure/app-service/configure-linux-open-ssh-session?pivots=container-linux</a>
 
 <h3>Connect to mysql </h3>
 mysql -h <b>hostName</b> -u <b>userName</b> -p
+
+<h3>Quick look at files in webapp</h3>
+http://<yoursitename>.scm.azurewebsites.net
+<a>https://stackoverflow.com/a/26385007</a>
