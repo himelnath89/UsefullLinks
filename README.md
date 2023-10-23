@@ -1,12 +1,10 @@
 # UsefullLinks
-Links For Future
-
-SQL Server Authentication Modes
-https://docs.microsoft.com/en-us/sql/connect/ado-net/sql/azure-active-directory-authentication?view=sql-server-ver15#using-active-directory-service-principal-authentication
+<h3>SQL Server Authentication Modes</h3>
+<p> https://docs.microsoft.com/en-us/sql/connect/ado-net/sql/azure-active-directory-authentication?view=sql-server-ver15#using-active-directory-service-principal-authentication </p>
 
 
-Configuration Variables and Order of precedence
-https://learn.microsoft.com/en-us/aspnet/core/fundamentals/configuration/?view=aspnetcore-6.0
+<h3> Configuration Variables and Order of precedence </h3>
+<p>https://learn.microsoft.com/en-us/aspnet/core/fundamentals/configuration/?view=aspnetcore-6.0</p>
 
 Below is Higest to Lowest
 1) Command-line arguments using the Command-line configuration provider.
@@ -16,13 +14,13 @@ Below is Higest to Lowest
 5) appsettings.json using the JSON configuration provider.
 6) A fallback to the host configuration described in the next section.
 
-ASCII </br>
+<h3> ASCII </h3>
 https://www.ascii-code.com/ </br>
 
 
-Connect to App Service via CLI </br>
+<h3>Connect to App Service via CLI </h3>
 az webapp create-remote-connection --subscription <subscriptionId> --resource-group <rgName> -n <webAppName> &
 </br>
 
-Connect to mysql </br>
+<h3>Connect to mysql </h3>
 mysql -h <hostName> -u <userName> -p
