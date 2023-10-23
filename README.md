@@ -19,8 +19,8 @@ https://www.ascii-code.com/ </br>
 
 
 <h3>Connect to App Service via CLI </h3>
-az webapp create-remote-connection --subscription <subscriptionId> --resource-group <rgName> -n <webAppName> &
+az webapp create-remote-connection --subscription &lt;subscriptionId&gt; --resource-group &lt;rgName> -n &lt;webAppName> &
 </br>
 
 <h3>Connect to mysql </h3>
-mysql -h <hostName> -u <userName> -p
+mysql -h &lt;hostName> -u &lt;userName> -p
