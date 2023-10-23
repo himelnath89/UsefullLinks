@@ -18,3 +18,11 @@ Below is Higest to Lowest
 
 ASCII </br>
 https://www.ascii-code.com/ </br>
+
+
+Connect to App Service via CLI </br>
+az webapp create-remote-connection --subscription <subscriptionId> --resource-group <rgName> -n <webAppName> &
+</br>
+
+Connect to mysql </br>
+mysql -h <hostName> -u <userName> -p
